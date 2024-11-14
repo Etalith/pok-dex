@@ -1,7 +1,6 @@
 const addPokemon = async ()=>{
 
     const mainBox = document.querySelector('.box');
-    console.log(mainBox)
     const ul = document.querySelector('.lista');
     const input = document.querySelector(".text-input")
     const nomePokemon = input.value.toLowerCase()
@@ -9,13 +8,11 @@ const addPokemon = async ()=>{
     try{
 
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${nomePokemon}`) 
-
         if(!response.ok){
             alert("Pokemon inesistente. Ritenta")
             return
         }
        
-
     const data = await response.json()
     const name = data.name
 
@@ -41,12 +38,6 @@ const addPokemon = async ()=>{
         ul.removeChild(li)
         input.value="";
     })
-
-    //Nuove prove stilistiche
-
-    const div = document.createElement("div")
-
-
     }catch(error){
         console.error(error)
     }
