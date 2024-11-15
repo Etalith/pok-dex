@@ -16,6 +16,10 @@ body{
     padding: 0px 20px;
     gap: 10px;
 }
+h1{
+    margin: inherit;
+    padding: 10px 0;
+}
 .button{
     background-color: #2B4162;
     color: #F5F0F6;
@@ -28,13 +32,13 @@ body{
     padding: 5px;
     margin-top: 10px;
     border-radius: 5px;
+    max-width: fit-content;
 }
 ul{
     text-decoration: none;
     padding: inherit;
 }
 li{
-    background-color: #D7B377;
     box-shadow: 10px 5px 20px 5px #00000034;
     padding: 10px;
     margin-bottom: 10px;
@@ -58,4 +62,13 @@ div img{
 }
 p{
     margin: 0 0 10px 0;
+}
+.tipo-normale{
+    background-color: gray;
+}
+.tipo-erba{
+    background-color: green;
+}
+.tipo-veleno-erba{
+    background: linear-gradient(to right, green, purple);    
 }
