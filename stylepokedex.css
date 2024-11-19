@@ -63,12 +63,516 @@ div img{
 p{
     margin: 0 0 10px 0;
 }
-.tipo-normale{
-    background-color: gray;
+.tipo-normale-lotta{
+    background: linear-gradient(to right, #9C9E9C , #FB7E00);
 }
-.tipo-erba{
-    background-color: green;
+.tipo-normale-volante{
+    background: linear-gradient(to right, #9C9E9C , #7DB6ED);
+}
+.tipo-normale-veleno{
+    background: linear-gradient(to right, #9C9E9C , #8D3EC6);
+}
+.tipo-normale-terra{
+    background: linear-gradient(to right, #9C9E9C , #8D4E1F);
+}
+.tipo-normale-roccia{
+    background: linear-gradient(to right, #9C9E9C , #ADA67E);
+}
+.tipo-normale-insetto{
+    background: linear-gradient(to right, #9C9E9C , #8E9D17);
+}
+.tipo-normale-spettro{
+    background: linear-gradient(to right, #9C9E9C , #6E3F6E);
+}
+.tipo-normale-acciaio{
+    background: linear-gradient(to right, #9C9E9C , #5D9EB5);
+}
+.tipo-normale-fuoco{
+    background: linear-gradient(to right, #9C9E9C , #E22627);
+}
+.tipo-normale-acqua{
+    background: linear-gradient(to right, #9C9E9C , #277DEB);
+}
+.tipo-normale-erba{
+    background: linear-gradient(to right, #9C9E9C , #3C9C27);
+}
+.tipo-normale-elettrico{
+    background: linear-gradient(to right, #9C9E9C , #F6BD00);
+}
+.tipo-normale-psico{
+    background: linear-gradient(to right, #9C9E9C , #EB3E76);
+}
+.tipo-normale-ghiaccio{
+    background: linear-gradient(to right, #9C9E9C , #3CD5FC);
+}
+.tipo-normale-drago{
+    background: linear-gradient(to right, #9C9E9C , #4E5EDE);
+}
+.tipo-normale-buio{
+    background: linear-gradient(to right, #9C9E9C , #4E3F3E);
+}
+.tipo-normale-folletto{
+    background: linear-gradient(to right, #9C9E9C , #ED6DED);
+}
+.tipo-lotta-volante{
+    background: linear-gradient(to right, #FB7E00 , #7DB6ED);
+}
+.tipo-lotta-veleno{
+    background: linear-gradient(to right, #FB7E00 , #8D3EC6);
+}
+.tipo-lotta-terra{
+    background: linear-gradient(to right, #FB7E00 , #8D4E1F);
+}
+.tipo-lotta-roccia{
+    background: linear-gradient(to right, #FB7E00 , #ADA67E);
+}
+.tipo-lotta-insetto{
+    background: linear-gradient(to right, #FB7E00 , #8E9D17);
+}
+.tipo-lotta-spettro{
+    background: linear-gradient(to right, #FB7E00 , #6E3F6E);
+}
+.tipo-lotta-acciaio{
+    background: linear-gradient(to right, #FB7E00 , #5D9EB5);
+}
+.tipo-lotta-fuoco{
+    background: linear-gradient(to right, #FB7E00 , #E22627);
+}
+.tipo-lotta-acqua{
+    background: linear-gradient(to right, #FB7E00 , #277DEB);
+}
+.tipo-lotta-erba{
+    background: linear-gradient(to right, #FB7E00 , #3C9C27);
+}
+.tipo-lotta-elettrico{
+    background: linear-gradient(to right, #FB7E00 , #F6BD00);
+}
+.tipo-lotta-psico{
+    background: linear-gradient(to right, #FB7E00 , #EB3E76);
+}
+.tipo-lotta-ghiaccio{
+    background: linear-gradient(to right, #FB7E00 , #3CD5FC);
+}
+.tipo-lotta-drago{
+    background: linear-gradient(to right, #FB7E00 , #4E5EDE);
+}
+.tipo-lotta-buio{
+    background: linear-gradient(to right, #FB7E00 , #4E3F3E);
+}
+.tipo-lotta-folletto{
+    background: linear-gradient(to right, #FB7E00 , #ED6DED);
+}
+.tipo-fuoco-volante{
+    background: linear-gradient(to right, #E22627 , #7DB6ED);
+}
+.tipo-fuoco-veleno{
+    background: linear-gradient(to right, #E22627 , #8D3EC6);
+}
+.tipo-fuoco-terra{
+    background: linear-gradient(to right, #E22627 , #8D4E1F);
+}
+.tipo-fuoco-roccia{
+    background: linear-gradient(to right, #E22627 , #ADA67E);
+}
+.tipo-fuoco-insetto{
+    background: linear-gradient(to right, #E22627 , #8E9D17);
+}
+.tipo-fuoco-spettro{
+    background: linear-gradient(to right, #E22627 , #6E3F6E);
+}
+.tipo-fuoco-acciaio{
+    background: linear-gradient(to right, #E22627 , #5D9EB5);
+}
+.tipo-fuoco-acqua{
+    background: linear-gradient(to right, #E22627 , #277DEB);
+}
+.tipo-fuoco-erba{
+    background: linear-gradient(to right, #E22627 , #3C9C27);
+}
+.tipo-fuoco-elettrico{
+    background: linear-gradient(to right, #E22627 , #F6BD00);
+}
+.tipo-fuoco-psico{
+    background: linear-gradient(to right, #E22627 , #EB3E76);
+}
+.tipo-fuoco-ghiaccio{
+    background: linear-gradient(to right, #E22627 , #3CD5FC);
+}
+.tipo-fuoco-drago{
+    background: linear-gradient(to right, #E22627 , #4E5EDE);
+}
+.tipo-fuoco-buio{
+    background: linear-gradient(to right, #E22627 , #4E3F3E);
+}
+.tipo-fuoco-folletto{
+    background: linear-gradient(to right, #E22627 , #ED6DED);
+}
+.tipo-acqua-volante{
+    background: linear-gradient(to right, #277DEB , #7DB6ED);
+}
+.tipo-acqua-veleno{
+    background: linear-gradient(to right, #277DEB , #8D3EC6);
+}
+.tipo-acqua-terra{
+    background: linear-gradient(to right, #277DEB , #8D4E1F);
+}
+.tipo-acqua-roccia{
+    background: linear-gradient(to right, #277DEB , #ADA67E);
+}
+.tipo-acqua-insetto{
+    background: linear-gradient(to right, #277DEB , #8E9D17);
+}
+.tipo-acqua-spettro{
+    background: linear-gradient(to right, #277DEB , #6E3F6E);
+}
+.tipo-acqua-acciaio{
+    background: linear-gradient(to right, #277DEB , #5D9EB5);
+}
+.tipo-acqua-erba{
+    background: linear-gradient(to right, #277DEB , #3C9C27);
+}
+.tipo-acqua-elettrico{
+    background: linear-gradient(to right, #277DEB , #F6BD00);
+}
+.tipo-acqua-psico{
+    background: linear-gradient(to right, #277DEB , #EB3E76);
+}
+.tipo-acqua-ghiaccio{
+    background: linear-gradient(to right, #277DEB , #3CD5FC);
+}
+.tipo-acqua-drago{
+    background: linear-gradient(to right, #277DEB , #4E5EDE);
+}
+.tipo-acqua-buio{
+    background: linear-gradient(to right, #277DEB , #4E3F3E);
+}
+.tipo-acqua-folletto{
+    background: linear-gradient(to right, #277DEB , #ED6DED);
+}
+.tipo-volante-veleno{
+    background: linear-gradient(to right, #7DB6ED , #8D3EC6);
+}
+.tipo-volante-terra{
+    background: linear-gradient(to right, #7DB6ED , #8D4E1F);
+}
+.tipo-volante-roccia{
+    background: linear-gradient(to right, #7DB6ED , #ADA67E);
+}
+.tipo-volante-insetto{
+    background: linear-gradient(to right, #7DB6ED , #8E9D17);
+}
+.tipo-volante-spettro{
+    background: linear-gradient(to right, #7DB6ED , #6E3F6E);
+}
+.tipo-volante-acciaio{
+    background: linear-gradient(to right, #7DB6ED , #5D9EB5);
+}
+.tipo-volante-erba{
+    background: linear-gradient(to right, #7DB6ED , #3C9C27);
+}
+.tipo-volante-elettrico{
+    background: linear-gradient(to right, #7DB6ED , #F6BD00);
+}
+.tipo-volante-psico{
+    background: linear-gradient(to right, #7DB6ED , #EB3E76);
+}
+.tipo-volante-ghiaccio{
+    background: linear-gradient(to right, #7DB6ED , #3CD5FC);
+}
+.tipo-volante-drago{
+    background: linear-gradient(to right, #7DB6ED , #4E5EDE);
+}
+.tipo-volante-buio{
+    background: linear-gradient(to right, #7DB6ED , #4E3F3E);
+}
+.tipo-volante-folletto{
+    background: linear-gradient(to right, #7DB6ED , #ED6DED);
+}
+.tipo-veleno-terra{
+    background: linear-gradient(to right, #8D3EC6 , #8D4E1F);
+}
+.tipo-veleno-roccia{
+    background: linear-gradient(to right, #8D3EC6 , #ADA67E);
+}
+.tipo-veleno-insetto{
+    background: linear-gradient(to right, #8D3EC6 , #8E9D17);
+}
+.tipo-veleno-spettro{
+    background: linear-gradient(to right, #8D3EC6 , #6E3F6E);
+}
+.tipo-veleno-acciaio{
+    background: linear-gradient(to right, #8D3EC6 , #5D9EB5);
 }
 .tipo-veleno-erba{
-    background: linear-gradient(to right, green, purple);    
+    background: linear-gradient(to right, #8D3EC6 , #3C9C27);
+}
+.tipo-veleno-elettrico{
+    background: linear-gradient(to right, #8D3EC6 , #F6BD00);
+}
+.tipo-veleno-psico{
+    background: linear-gradient(to right, #8D3EC6 , #EB3E76);
+}
+.tipo-veleno-ghiaccio{
+    background: linear-gradient(to right, #8D3EC6 , #3CD5FC);
+}
+.tipo-veleno-drago{
+    background: linear-gradient(to right, #8D3EC6 , #4E5EDE);
+}
+.tipo-veleno-buio{
+    background: linear-gradient(to right, #8D3EC6 , #8D4E1F);
+}
+.tipo-veleno-folletto{
+    background: linear-gradient(to right, #8D3EC6 , #ED6DED);
+}
+.tipo-terra-roccia{
+    background: linear-gradient(to right, #8D4E1F , #ADA67E);
+}
+.tipo-terra-insetto{
+    background: linear-gradient(to right, #8D4E1F , #8E9D17);
+}
+.tipo-terra-spettro{
+    background: linear-gradient(to right, #8D4E1F , #6E3F6E);
+}
+.tipo-terra-acciaio{
+    background: linear-gradient(to right, #8D4E1F , #5D9EB5);
+}
+.tipo-terra-erba{
+    background: linear-gradient(to right, #8D4E1F , #3C9C27);
+}
+.tipo-terra-elettrico{
+    background: linear-gradient(to right, #8D4E1F , #F6BD00);
+}
+.tipo-terra-psico{
+    background: linear-gradient(to right, #8D4E1F , #EB3E76);
+}
+.tipo-terra-ghiaccio{
+    background: linear-gradient(to right, #8D4E1F , #3CD5FC);
+}
+.tipo-terra-drago{
+    background: linear-gradient(to right, #8D4E1F , #4E5EDE);
+}
+.tipo-terra-buio{
+    background: linear-gradient(to right, #8D4E1F , #4E3F3E);
+}
+.tipo-terra-folletto{
+    background: linear-gradient(to right, #8D4E1F , #ED6DED);
+}
+.tipo-roccia-insetto{
+    background: linear-gradient(to right, #ADA67E , #8E9D17);
+}
+.tipo-roccia-spettro{
+    background: linear-gradient(to right, #ADA67E , #6E3F6E);
+}
+.tipo-roccia-acciaio{
+    background: linear-gradient(to right, #ADA67E , #5D9EB5);
+}
+.tipo-roccia-erba{
+    background: linear-gradient(to right, #ADA67E , #3C9C27);
+}
+.tipo-roccia-elettrico{
+    background: linear-gradient(to right, #ADA67E , #F6BD00);
+}
+.tipo-roccia-psico{
+    background: linear-gradient(to right, #ADA67E , #EB3E76);
+}
+.tipo-roccia-ghiaccio{
+    background: linear-gradient(to right, #ADA67E , #3CD5FC);
+}
+.tipo-roccia-drago{
+    background: linear-gradient(to right, #ADA67E , #4E5EDE);
+}
+.tipo-roccia-buio{
+    background: linear-gradient(to right, #ADA67E , #4E3F3E);
+}
+.tipo-roccia-folletto{
+    background: linear-gradient(to right, #ADA67E , #ED6DED);
+}
+.tipo-insetto-spettro{
+    background: linear-gradient(to right, #8E9D17 , #6E3F6E);
+}
+.tipo-insetto-acciaio{
+    background: linear-gradient(to right, #8E9D17 , #5D9EB5);
+}
+.tipo-insetto-erba{
+    background: linear-gradient(to right, #8E9D17 , #3C9C27);
+}
+.tipo-insetto-elettrico{
+    background: linear-gradient(to right, #8E9D17 , #F6BD00);
+}
+.tipo-insetto-psico{
+    background: linear-gradient(to right, #8E9D17 , #EB3E76);
+}
+.tipo-insetto-ghiaccio{
+    background: linear-gradient(to right, #8E9D17 , #3CD5FC);
+}
+.tipo-insetto-drago{
+    background: linear-gradient(to right, #8E9D17 , #4E5EDE);
+}
+.tipo-insetto-buio{
+    background: linear-gradient(to right, #8E9D17 , #4E3F3E);
+}
+.tipo-insetto-folletto{
+    background: linear-gradient(to right, #8E9D17 , #ED6DED);
+}
+.tipo-spettro-acciaio{
+    background: linear-gradient(to right, #6E3F6E , #5D9EB5);
+}
+.tipo-spettro-erba{
+    background: linear-gradient(to right, #6E3F6E , #3C9C27);
+}
+.tipo-spettro-elettrico{
+    background: linear-gradient(to right, #6E3F6E , #F6BD00);
+}
+.tipo-spettro-psico{
+    background: linear-gradient(to right, #6E3F6E , #EB3E76);
+}
+.tipo-spettro-ghiaccio{
+    background: linear-gradient(to right, #6E3F6E , #3CD5FC);
+}
+.tipo-spettro-drago{
+    background: linear-gradient(to right, #6E3F6E , #4E5EDE);
+}
+.tipo-spettro-buio{
+    background: linear-gradient(to right, #6E3F6E , #4E3F3E);
+}
+.tipo-spettro-folletto{
+    background: linear-gradient(to right, #6E3F6E , #ED6DED);
+}
+.tipo-acciaio-erba{
+    background: linear-gradient(to right, #5D9EB5 , #3C9C27);
+}
+.tipo-acciaio-elettrico{
+    background: linear-gradient(to right, #5D9EB5 , #F6BD00);
+}
+.tipo-acciaio-psico{
+    background: linear-gradient(to right, #5D9EB5 , #EB3E76);
+}
+.tipo-acciaio-ghiaccio{
+    background: linear-gradient(to right, #5D9EB5 , #3CD5FC);
+}
+.tipo-acciaio-drago{
+    background: linear-gradient(to right, #5D9EB5 , #4E5EDE);
+}
+.tipo-acciaio-buio{
+    background: linear-gradient(to right, #5D9EB5 , #4E3F3E);
+}
+.tipo-acciaio-folletto{
+    background: linear-gradient(to right, #5D9EB5 , #ED6DED);
+}
+.tipo-erba-elettrico{
+    background: linear-gradient(to right, #3C9C27 , #F6BD00);
+}
+.tipo-erba-psico{
+    background: linear-gradient(to right, #3C9C27 , #EB3E76);
+}
+.tipo-erba-ghiaccio{
+    background: linear-gradient(to right, #3C9C27 , #3CD5FC);
+}
+.tipo-erba-drago{
+    background: linear-gradient(to right, #3C9C27 , #4E5EDE);
+}
+.tipo-erba-buio{
+    background: linear-gradient(to right, #3C9C27 , #4E3F3E);
+}
+.tipo-erba-folletto{
+    background: linear-gradient(to right, #3C9C27 , #ED6DED);
+}
+.tipo-elettrico-psico{
+    background: linear-gradient(to right, #F6BD00 , #ED6DED);
+}
+.tipo-elettrico-ghiaccio{
+    background: linear-gradient(to right, #F6BD00 , #3CD5FC);
+}
+.tipo-elettrico-drago{
+    background: linear-gradient(to right, #F6BD00 , #4E5EDE);
+}
+.tipo-elettrico-buio{
+    background: linear-gradient(to right, #F6BD00 , #4E3F3E);
+}
+.tipo-elettrico-folletto{
+    background: linear-gradient(to right, #F6BD00 , #ED6DED);
+}
+.tipo-psico-ghiaccio{
+    background: linear-gradient(to right, #EB3E76 , #3CD5FC);
+}
+.tipo-psico-drago{
+    background: linear-gradient(to right, #EB3E76 , #4E5EDE);
+}
+.tipo-psico-buio{
+    background: linear-gradient(to right, #EB3E76 , #4E3F3E);
+}
+.tipo-psico-folletto{
+    background: linear-gradient(to right, #EB3E76 , #ED6DED);
+}
+.tipo-ghiaccio-drago{
+    background: linear-gradient(to right, #3CD5FC , #4E5EDE);
+}
+.tipo-ghiaccio-buio{
+    background: linear-gradient(to right, #3CD5FC , #4E3F3E);
+}
+.tipo-ghiaccio-folletto{
+    background: linear-gradient(to right, #3CD5FC , #ED6DED);
+}
+.tipo-drago-buio{
+    background: linear-gradient(to right, #4E5EDE , #4E3F3E);
+}
+.tipo-drago-folletto{
+    background: linear-gradient(to right, #4E5EDE , #ED6DED);
+}
+.tipo-buio-folletto{
+    background: linear-gradient(to right, #4E3F3E , #ED6DED);
+}
+.tipo-normale{
+    background: linear-gradient(to right, #D7D7D7 , #A0A2A0);
+}
+.tipo-lotta{
+    background: linear-gradient(to right, #FFB060 , #FF8102);
+}
+.tipo-volante{
+    background: linear-gradient(to right, #BCDFFF , #83BAF0);
+}
+.tipo-veleno{
+    background: linear-gradient(to right, #BF77F3 , #9142CB);
+}
+.tipo-terra{
+    background: linear-gradient(to right, #C1885E , #925222);
+}
+.tipo-roccia{
+    background: linear-gradient(to right, #DBD7C7 , #B1AB83);
+}
+.tipo-insetto{
+    background: linear-gradient(to right, #C5D25F , #92A11A); 
+}
+.tipo-spettro{
+    background: linear-gradient(to right, #9B7F9B , #714271); 
+}
+.tipo-fuoco{
+    background: linear-gradient(to right, #FE6F70 , #E72A2B); 
+}
+.tipo-acqua{
+    background: linear-gradient(to right, #81B8FF , #3C8CF2);
+}
+.tipo-elettrico{
+    background: linear-gradient(to right, #FFE693 , #FAC002);
+}
+.tipo-psico{
+    background: linear-gradient(to right, #FF94B7 , #EF427A);
+}
+.tipo-ghiaccio{
+    background: linear-gradient(to right, #BAF2FF , #41D8FF);
+}
+.tipo-drago{
+    background: linear-gradient(to right, #8E9AFE , #5161E2);
+}
+.tipo-buio{
+    background: linear-gradient(to right, #737373 , #514240);
+}
+.tipo-folletto{
+    background: linear-gradient(to right, #FFCBFF , #EF71EF);
+}
+.tipo-acciaio{
+    background: linear-gradient(to right, #A1CFDF , #61A2B9);
+}
+.tipo-erba{
+    background: linear-gradient(to right, #80D26D , #40A22A);
 }

@@ -78,40 +78,6 @@ const addPokemon = async () => {
             li.classList.add("tipo-normale-buio");
         } else if (types.includes("normal") && types.includes("fairy")) {
             li.classList.add("tipo-normale-folletto");
-        } else if (types.includes("normal") && types.includes("fighting")) {
-            li.classList.add("tipo-normale-lotta");
-        } else if (types.includes("normal") && types.includes("flying")) {
-            li.classList.add("tipo-normale-volante");
-        } else if (types.includes("normal") && types.includes("poison")) {
-            li.classList.add("tipo-normale-veleno");
-        } else if (types.includes("normal") && types.includes("ground")) {
-            li.classList.add("tipo-normale-terra");
-        } else if (types.includes("normal") && types.includes("rock")) {
-            li.classList.add("tipo-normale-roccia");
-        } else if (types.includes("normal") && types.includes("bug")) {
-            li.classList.add("tipo-normale-insetto");
-        } else if (types.includes("normal") && types.includes("ghost")) {
-            li.classList.add("tipo-normale-spettro");
-        } else if (types.includes("normal") && types.includes("steel")) {
-            li.classList.add("tipo-normale-acciaio");
-        } else if (types.includes("normal") && types.includes("fire")) {
-            li.classList.add("tipo-normale-fuoco");
-        } else if (types.includes("normal") && types.includes("water")) {
-            li.classList.add("tipo-normale-acqua");
-        } else if (types.includes("normal") && types.includes("grass")) {
-            li.classList.add("tipo-normale-erba");
-        } else if (types.includes("normal") && types.includes("electric")) {
-            li.classList.add("tipo-normale-elettrico");
-        } else if (types.includes("normal") && types.includes("psychic")) {
-            li.classList.add("tipo-normale-psico");
-        } else if (types.includes("normal") && types.includes("ice")) {
-            li.classList.add("tipo-normale-ghiaccio");
-        } else if (types.includes("normal") && types.includes("dragon")) {
-            li.classList.add("tipo-normale-drago");
-        } else if (types.includes("normal") && types.includes("dark")) {
-            li.classList.add("tipo-normale-buio");
-        } else if (types.includes("normal") && types.includes("fairy")) {
-            li.classList.add("tipo-normale-folletto");
         } else if (types.includes("fighting") && types.includes("flying")) {
             li.classList.add("tipo-lotta-volante");
         } else if (types.includes("fighting") && types.includes("poison")) {
@@ -418,8 +384,8 @@ const addPokemon = async () => {
             li.classList.add("tipo-folletto");
         } else if (types[0] === "steel") {
             li.classList.add("tipo-acciaio");
-        } else if (types[0] === "fighting") {
-            li.classList.add("tipo-lotta");
+        } else if (types[0] === "grass") {
+            li.classList.add("tipo-erba");
         }
 
         // Costruzione della card
