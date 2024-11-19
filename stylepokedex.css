@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #385F71;
     display: flex;
@@ -30,7 +34,6 @@ h1{
     background-color: #2b4162;
     color: #F5F0F6;
     padding: 5px;
-    margin-top: 10px;
     border-radius: 5px;
     max-width: fit-content;
 }
@@ -51,17 +54,44 @@ a{
     padding-left: 70px;
     color: #000000;
 }
-div{
-    max-width: 100px;
-    margin: 0 auto;
-    background-color: #F5F0F6;
-    border-radius: 50px;
+.color{
+    display: flex;
+    justify-content: center;
+    
+    background-color: #f8f8f8;
 }
-div img{
+.prova{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; 
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    
+}
+.spazio-sinistra{
+    padding-right: 30px;
+}
+.prova img{
     width: 100%;
 }
 p{
+    margin: inherit;
+}
+.spazio{
+    margin-bottom: 10px;
+}
+.contenitore-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+.boh{
     margin: 0 0 10px 0;
+    padding: 5px;
 }
 .tipo-normale-lotta{
     background: linear-gradient(to right, #9C9E9C , #FB7E00);

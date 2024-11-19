@@ -12,8 +12,11 @@ const addPokemon = async () => {
 
         const data = await response.json();
         const name = data.name;
-        const types = data.types.map(typeInfo => typeInfo.type.name); // array con i tipi
-
+        const types = data.types.map(typeInfo => typeInfo.type.name); // array del tipo del pokémon
+        const abilitys = data.abilities.map(abilitieInfo => abilitieInfo.ability.name) // array delle mosse
+        const altezza = data.height / 10
+        const peso = data.weight / 10
+        
         // Elementi DOM
         const img = document.createElement("img");
         const li = document.createElement("li");
@@ -23,6 +26,15 @@ const addPokemon = async () => {
         const div = document.createElement("div");
         const nome = document.createElement("p");
         const tipoPokemon = document.createElement("p");
+        const contenitore = document.createElement("div")
+        const abilita = document.createElement("p");
+        const caratteristiche = document.createElement("div");
+        const divalteza = document.createElement("div");
+        const divpeso = document.createElement("div");
+        const altezzah5 = document.createElement("h3");
+        const altezzaP = document.createElement("p");
+        const pesoh5 = document.createElement("h3");
+        const pesoP = document.createElement("p");
 
         // immagine del Pokémon
         img.src = data.sprites.front_default;
@@ -31,16 +43,42 @@ const addPokemon = async () => {
 
         checkbox.setAttribute("type", "checkbox");
         newButton.classList.add("bottone-nuovo");
+        nome.classList.add("contenitore-info");
+        nome.classList.add("boh");
+        tipoPokemon.classList.add("contenitore-info");
+        tipoPokemon.classList.add("boh");
+        abilita.classList.add("contenitore-info");
+        div.classList.add("prova");
+        contenitore.classList.add("prova");
+        divalteza.classList.add("prova");
+        divpeso.classList.add("prova");
+        caratteristiche.classList.add("color");
+        div.classList.add("spazio")
+        contenitore.classList.add("spazio")
+        caratteristiche.classList.add("spazio")
+        divalteza.classList.add("spazio-sinistra")
 
         newButton.innerText = "Rimuovi";
         nome.innerText = `Nome Pokémon: ${name}`;
         a.innerText = "Wiki";
+        contenitore.innerText = "Mosse:";
+        altezzah5.innerText = "Altezza:";
+        pesoh5.innerText = "Peso:";
+        altezzaP.innerText = `${altezza} m`
+        pesoP.innerText = `${peso} kg`
 
         // tipi nella card
         if (types.length === 1) {
             tipoPokemon.innerText = `Tipo: ${types[0]}`;
         } else if (types.length > 1) {
             tipoPokemon.innerText = `Tipo: ${types.join(", ")}`; // Unisce i tipi con una virgola
+        }
+
+        // mosse nella card
+        if (abilitys.length === 1){
+            abilita.innerText = `${abilitys[0]}`;
+        } else if (abilitys.length > 1) {
+            abilita.innerText = `${abilitys.join(", ")}`; // Unisce le mosse con una virgola
         }
 
         // Combinazioni con doppio tipo
@@ -391,9 +429,18 @@ const addPokemon = async () => {
         // Costruzione della card
         ul.appendChild(li);
         li.appendChild(nome);
-        li.appendChild(tipoPokemon);
         li.appendChild(div);
         div.appendChild(img);
+        li.appendChild(tipoPokemon);
+        li.appendChild(contenitore);
+        contenitore.appendChild(abilita);
+        li.appendChild(caratteristiche);
+        caratteristiche.appendChild(divalteza);
+        caratteristiche.appendChild(divpeso);
+        divalteza.appendChild(altezzah5);
+        divalteza.appendChild(altezzaP);
+        divpeso.appendChild(pesoh5);
+        divpeso.appendChild(pesoP);
         li.appendChild(newButton);
         li.appendChild(a);
 
